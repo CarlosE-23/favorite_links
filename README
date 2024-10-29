@@ -2,29 +2,38 @@
 
 ## Descripción
 
-**Favorite Links** es una aplicación web desarrollada con Node.js que te permite guardar y gestionar tus enlaces favoritos de forma segura. La aplicación incluye un sistema de autenticación con inicio de sesión y protección de rutas.
+**Favorite Links** es una aplicación web intuitiva y segura, desarrollada con Node.js, que permite a los usuarios guardar y gestionar sus enlaces favoritos. Con un sistema robusto de autenticación y protección de rutas, esta aplicación garantiza que solo los usuarios autorizados puedan acceder a sus datos.
 
 ## Características
 
-- Registro y autenticación de usuarios.
-- Protección de rutas para asegurar que solo los usuarios autenticados puedan acceder a ciertas secciones.
-- Capacidad para agregar, editar y eliminar enlaces.
-- Visualización de enlaces guardados con detalles como título, URL y descripción.
-- Interfaz amigable y responsiva.
+- **Registro y autenticación de usuarios**: Permite a los usuarios crear cuentas y acceder de manera segura.
+- **Protección de rutas**: Asegura que solo los usuarios autenticados puedan acceder a secciones específicas de la aplicación.
+- **Gestión de enlaces**: Posibilidad de agregar, editar y eliminar enlaces de manera sencilla.
+- **Visualización detallada**: Muestra los enlaces guardados junto con información relevante como título, URL y descripción.
+- **Interfaz amigable y responsiva**: Diseño adaptativo que proporciona una experiencia de usuario fluida en dispositivos móviles y de escritorio.
 
 ## Tecnologías Utilizadas
 
 - **Node.js**: Entorno de ejecución para JavaScript en el servidor.
-- **Express**: Framework para crear aplicaciones web en Node.js.
-- **MySQL**: Base de datos para almacenar usuarios y enlaces.
-- **Passport**: Middleware para autenticación.
-- **Handlebars**: Motor de plantillas para renderizar vistas.
-- **Bcryptjs**: Biblioteca para encriptar contraseñas.
+- **Express**: Framework minimalista para construir aplicaciones web en Node.js.
+- **MySQL**: Sistema de gestión de bases de datos para almacenar usuarios y enlaces.
+- **Passport**: Middleware que facilita la autenticación de usuarios.
+- **Handlebars**: Motor de plantillas que permite renderizar vistas dinámicas.
+- **Bcryptjs**: Biblioteca para el cifrado seguro de contraseñas.
 
 ## Instalación
 
+Para instalar la aplicación, sigue estos pasos:
+
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/favorite-links.git
-   cd favorite-links
+   git clone https://github.com/CarlosE-23/favorite_links.git
+   cd favorite_links
    ```
+
+## Base de Datos
+
+1. Si deseas crear tu propia base de datos, puedes utilizar los comandos SQL proporcionados en el archivo database/db.sql. Asegúrate de:
+
+2. Crear una nueva base de datos en tu servidor MySQL.
+   Ejecutar los comandos del archivo db.sql para configurar las tablas necesarias.
