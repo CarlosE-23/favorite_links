@@ -1,0 +1,33 @@
+<div class="container p-4">
+  <div class="row justify-content-center">
+    <!-- Añade justify-content-center aquí -->
+    {{#each links}}
+      <div class="col-md-3 mb-4">
+        <div class="card text-center shadow-sm border-light h-100">
+          <div class="card-body d-flex flex-column h-100">
+            <a
+              href="{{url}}"
+              target="_blank"
+              class="text-decoration-none flex-grow-1"
+            >
+              <h5 class="card-title text-uppercase text-primary">{{title}}</h5>
+            </a>
+            <p class="m-2 flex-grow-1">{{description}}</p>
+            <p class="text-muted">{{timeago create_at}}</p>
+            <div class="d-flex justify-content-between mt-3">
+              <a href="/links/delete/{{id}}" class="btn btn-danger">Delete</a>
+              <a href="/links/edit/{{id}}" class="btn btn-secondary">Edit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{else}}
+      <div class="col-md-4 mx-auto">
+        <div class="card card-body text-center shadow-sm border-light h-100">
+          <p class="h5">No links saved yet</p>
+          <a href="/links/add" class="btn btn-primary">Create one</a>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

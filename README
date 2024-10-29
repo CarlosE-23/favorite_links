@@ -1,0 +1,30 @@
+# Favorite Links
+
+## Descripción
+
+**Favorite Links** es una aplicación web desarrollada con Node.js que te permite guardar y gestionar tus enlaces favoritos de forma segura. La aplicación incluye un sistema de autenticación con inicio de sesión y protección de rutas.
+
+## Características
+
+- Registro y autenticación de usuarios.
+- Protección de rutas para asegurar que solo los usuarios autenticados puedan acceder a ciertas secciones.
+- Capacidad para agregar, editar y eliminar enlaces.
+- Visualización de enlaces guardados con detalles como título, URL y descripción.
+- Interfaz amigable y responsiva.
+
+## Tecnologías Utilizadas
+
+- **Node.js**: Entorno de ejecución para JavaScript en el servidor.
+- **Express**: Framework para crear aplicaciones web en Node.js.
+- **MySQL**: Base de datos para almacenar usuarios y enlaces.
+- **Passport**: Middleware para autenticación.
+- **Handlebars**: Motor de plantillas para renderizar vistas.
+- **Bcryptjs**: Biblioteca para encriptar contraseñas.
+
+## Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/favorite-links.git
+   cd favorite-links
+   ```
